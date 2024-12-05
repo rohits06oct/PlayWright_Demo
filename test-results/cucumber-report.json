@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1895521399
+              "duration": 1932745300
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2891916199
+              "duration": 3372012799
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 374059400
+              "duration": 249669700
             }
           },
           {
@@ -58,7 +58,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 362514300
+              "duration": 294079600
             }
           },
           {
@@ -76,7 +76,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3111992799
+              "duration": 3073435999
             }
           },
           {
@@ -89,7 +89,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 547642300
+              "duration": 605135199
             }
           },
           {
@@ -102,7 +102,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16183500
+              "duration": 14271600
             }
           }
         ],
@@ -113,46 +113,46 @@
         "description": "",
         "id": "search-functionality-test;invalid-search-with-no-results",
         "keyword": "Scenario",
-        "line": 18,
+        "line": 17,
         "name": "Invalid Search with No Results",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 19,
+            "line": 18,
             "name": "the application is loaded successfully",
             "match": {
               "location": "src\\test\\steps\\demoSteps.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 856043999
+              "duration": 881199199
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 20,
+            "line": 19,
             "name": "user search for \"NonExistentTerm\"",
             "match": {
               "location": "src\\test\\steps\\demoSteps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 3010745899
+              "duration": 2982017500
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 21,
+            "line": 20,
             "name": "user should see a \"No results found\" message",
             "match": {
               "location": "src\\test\\steps\\demoSteps.ts:29"
             },
             "result": {
               "status": "failed",
-              "duration": 1452812900,
+              "duration": 3801316199,
               "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m\"No \u001b[7mr\u001b[27mesults \u001b[7mf\u001b[27mound\"\u001b[39m\nReceived: \u001b[31m\"No \u001b[7mR\u001b[27mesults \u001b[7mF\u001b[27mound\"\u001b[39m\n    at Proxy.<anonymous> (C:\\Users\\Rohit Singhal\\Downloads\\Playwright demo\\node_modules\\playwright\\lib\\matchers\\expect.js:227:37)\n    at World.<anonymous> (C:\\Users\\Rohit Singhal\\Downloads\\Playwright demo\\src\\test\\steps\\demoSteps.ts:33:32)"
             }
           }
